@@ -5,8 +5,7 @@ import academy.devdojo.maratona.javacore.DConstrutores.dominio.Anime;
 
 public class AnimeTeste01 {
     public static void main(String[] args) {
-        Anime anime = new Anime("Akudama Drive", "TV", 12, "Ação");
-        Anime anime1 = new Anime();
+        Anime anime = new Anime("Akudama Drive", "TV", 12, "Ação", "ProductC" );
 
 //       anime.init("Akudama Drive", "TV", 12);
 //        anime.init("Akudama Drive", "TV", 12, "Ação");
@@ -17,6 +16,6 @@ public class AnimeTeste01 {
 
 
         anime.imprime();
-        anime1.imprime();
+
     }
 }
