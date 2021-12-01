@@ -6,6 +6,12 @@ public class Anime {
     private int episodios;
     private String genero;
 
+    // CONSTRUTORES NÃO TEM NENHUM TIPO DE RETORNO:
+    // Sempre são criados por PADRÃO no Java -> dão origem a um Objeto!
+    public Anime(){
+
+    }
+
     public void init (String nome, String tipo, int episodios){
         this.nome = nome;
         this.tipo = tipo;
